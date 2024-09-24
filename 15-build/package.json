@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "liveserver": "^0.1.20",
+    "rollup": "^4.22.4"
+  },
+  "name": "build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup scripts/app.js --file bundle.js --format iife",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "viskhan",
+  "license": "ISC",
+  "description": ""
+}
